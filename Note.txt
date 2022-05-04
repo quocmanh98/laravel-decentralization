@@ -1,0 +1,6 @@
+
+php artisan make:mail DemoMail
+
+{{number_format($row->total,0,',','.')}}
+
+php artisan make:middleware CheckAge
